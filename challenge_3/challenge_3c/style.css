@@ -7,12 +7,28 @@ img {
 	width: 100px;
 }
 
-div div {
-	margin: auto;
-	width: 33%;
-	height: 250px;
-}
-
 #big_div {
 	border: 5px solid black;
+	display: flex;
+	flex-direction: column;
+}
+
+#big_div div {
+	display: flex;
+	width: 100%;
+	align-items: center;
+}
+
+#sub_div1 {
+	margin: 0px 50px;
+	justify-content: flex-start;
+}
+
+#sub_div2 {
+	justify-content: center;
+}
+
+#sub_div3 {
+	margin: 0px -50px;
+	justify-content: flex-end;
 }

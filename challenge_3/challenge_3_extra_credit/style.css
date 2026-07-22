@@ -11,4 +11,23 @@ img {
 	margin: auto;
 	border: 5px solid black;
 	width: 516px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#a, #e {
+	display: flex;
+	justify-content: space-around;
+}
+
+#b {
+	display: flex;
+	justify-content: space-between;
+}
+
+#c, #d {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
